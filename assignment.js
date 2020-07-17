@@ -19,8 +19,8 @@ console.log(feetToMile(1000))
 function woodCalculator(chair,table,bed){
     var total = 0;
 
-    if(Number.isInteger(chair)==false|| Number.isInteger(table)==false||Number.isInteger(bed)==false){
-        return 'your input is negative,decimal or infinity. please enter valid number!'
+    if(chari<0|| chair<0||chair<0){
+        return 'your input is negative. please enter valid number!'
     }
 
     chair *= 1;
